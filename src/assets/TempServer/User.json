@@ -1,0 +1,44 @@
+[
+    {
+    "ProfileID": "1",
+    "Logo": "https://source.unsplash.com/400x400/?anime,anime",
+    "Banner": "https://source.unsplash.com/1920x900/?anime,dragonball",
+    "Username": "TEST",
+    "Email": "Test@gmail.com",
+    "Password": "123",
+    "Name": "Juan",
+    "LastName": "Camacho",
+    "Phone": "85345254577",
+    "Address": {
+        "Country": "US",
+        "AddressLine1": "SABANERAS",
+        "AddressLine2": "",
+        "City": "Sabana Grande",
+        "State": "PR",
+        "ZipCode": "00637"
+    },
+    "Followers": 928,
+    "Following": 1008
+    },
+    {
+        "ProfileID": "2",
+        "Logo": "https://source.unsplash.com/400x400/?anime,anime",
+        "Banner": "https://source.unsplash.com/1920x900/?anime,dragonball",
+        "Username": "Test123",
+        "Email": "Test@gmail.com",
+        "Password": "1234",
+        "Name": "Pablo",
+        "LastName": "Camacho",
+        "Phone": "85345254577",
+        "Address": {
+            "Country": "US",
+            "AddressLine1": "SABANERAS",
+            "AddressLine2": "",
+            "City": "Sabana Grande",
+            "State": "PR",
+            "ZipCode": "00637"
+        },
+        "Followers": 1008,
+        "Following": 420
+        }
+]

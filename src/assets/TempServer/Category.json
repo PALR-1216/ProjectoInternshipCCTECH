@@ -1,0 +1,37 @@
+[
+    {
+      "CategoryId": 1,
+      "Name": "Concert",
+      "Description": "",
+      "Icon": "fas fa-guitar",
+      "Image": "https://source.unsplash.com/500x500/?concerts,concert"
+  },
+    {
+      "CategoryId": 2,
+      "Name": "Sport",
+      "Description": "",
+      "Icon": "fas fa-basketball-ball",
+      "Image": "https://source.unsplash.com/500x500/?sports,basketball"
+  },
+    {
+      "CategoryId": 3,
+      "Name": "Comedy",
+      "Description": "",
+      "Icon": "fas fa-theater-masks",
+      "Image": "https://source.unsplash.com/500x500/?theater,comedy"
+  },
+    {
+      "CategoryId": 4,
+      "Name": "Speech",
+      "Description": "",
+      "Icon": "fas fa-chalkboard-teacher",
+      "Image": "https://source.unsplash.com/500x500/?speech,speech"
+  },
+    {
+      "CategoryId": 5,
+      "Name": "Convention",
+      "Description": "",
+      "Icon": "fas fa-users",
+      "Image": "https://source.unsplash.com/500x500/?meeting,meeting"
+  }
+  ]
