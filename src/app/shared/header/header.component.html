@@ -13,8 +13,8 @@
                             <i class="lni lni-user"></i>
                         </a>
                     </li>
-                    <li>
-                        <a href="add-listing.html" class="crs_yuo12 w-auto text-white theme-bg">
+                    <li >
+                        <a *ngIf="this.isloggedIn" href="add-listing.html" class="crs_yuo12 w-auto text-white theme-bg">
                             <span class="embos_45"><i class="fas fa-plus me-2"></i>Add Listing</span>
                         </a>
                     </li>
@@ -77,7 +77,7 @@
                       <!--Appears when user is signed in-->
                     <!--NG IF OR REDDIRECT GUEST WHEN NOT LOGGED IN-->
 
-                    <li><a href="javascript:void(0);">User Dashboard</a>
+                    <li *ngIf="this.isloggedIn"><a href="javascript:void(0);">User Dashboard</a>
                         <ul class="nav-dropdown nav-submenu">
                             <li><a href="dashboard.html"><i class="lni lni-dashboard me-2"></i>Dashboard</a></li>
                             <li><a href="dashboard-my-listings.html"><i class="lni lni-files me-2"></i>My Listings</a></li>
@@ -116,7 +116,7 @@
                         </a>
                     </li>
                     <li class="add-listing">
-                        <a href="add-listing.html" >
+                        <a *ngIf="this.isloggedIn" href="add-listing.html" >
                             <i class="fas fa-plus me-2"></i>Add Listing
                         </a>
                     </li>
