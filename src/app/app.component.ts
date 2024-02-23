@@ -8,13 +8,14 @@ import { AboutComponent } from "./pages/about/about/about.component";
 import { ContactComponent } from "./pages/contact/contact/contact.component";
 import { NotFoundComponent } from "./pages/page-notfound/not-found/not-found.component";
 import { AuthorComponent } from "./pages/author/author/author.component";
+import { SearchComponent } from "./pages/search-cat/search/search.component";
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [RouterOutlet, HeaderComponent, FooterComponent, TopButtonComponent, HomeComponent, AboutComponent, ContactComponent, NotFoundComponent, AuthorComponent]
+    imports: [RouterOutlet, HeaderComponent, FooterComponent, TopButtonComponent, HomeComponent, AboutComponent, ContactComponent, NotFoundComponent, AuthorComponent, SearchComponent]
 })
 export class AppComponent {
   title = 'projecto_cctech';
