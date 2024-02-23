@@ -12,6 +12,8 @@ import { FaqNewsComponent } from "../faq-news/faq-news.component";
 
 
 
+
+//TODO: tengo un error en la logica con el faq cuando lo undes en el footer se queda loading luego le das refresh y aparece
 export class FaqComponent implements OnInit {
   ngOnInit(): void {
     
